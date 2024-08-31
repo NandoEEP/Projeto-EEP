@@ -139,12 +139,11 @@ body{
     z-index:2;
   
   }
-
   .imglogo {
     width: 100px;
     background-color: black;
   }
-  
+  /*Linhas que se movimentam*/
   .nav-container input[type="checkbox"]:checked ~ .menu-items {
     transform: translateX(0);
   }
